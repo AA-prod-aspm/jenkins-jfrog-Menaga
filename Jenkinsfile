@@ -25,9 +25,9 @@ pipeline {
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
                     name: "build-artifacts-testing-jenkins",
-                    version: "1.11",
+                    version: "latest",
                     type: "docker",
-                    url: "cbjfrog.saas-preprod.beescloud.com/jfrog-test-docker-target-repo/test-image:1.11",
+                    url: "cbjfrog.saas-preprod.beescloud.com/jfrog-test-docker-target-repo/test-image:latest",
                     //digest: "6f637064707039346163663237383938",
                     label: "test-aspm-jfrog"
                 )
