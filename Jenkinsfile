@@ -27,7 +27,7 @@ pipeline {
                     name: "build-artifacts-testing-jenkins",
                     version: "latest",
                     type: "docker",
-                    url: "cbunifydev.jfrog.io/docker-trial/exposures:latest",
+                    url: "cbjfrog.saas-preprod.beescloud.com/jfrog-test-docker-target-repo/test-image:latest",
                     //digest: "6f637064707039346163663237383938",
                     label: "test-aspm-jfrog"
                 )
